@@ -1,4 +1,4 @@
-# Find the Longest substring
+# Find the Longest substring (print length)
 class solution:
     def lengthOfLongestSubstring(self,s: str) -> int:
         start = 0
