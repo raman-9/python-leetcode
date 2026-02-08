@@ -3,7 +3,7 @@ class solution:
     def lengthOfLongestSubstring(self,s: str) -> int:
         start = 0
         end = 0
-        max_len = 0
+        max_len = 0 #store maximum length
         char_set = set()
         
         for start in range(len(s)):
